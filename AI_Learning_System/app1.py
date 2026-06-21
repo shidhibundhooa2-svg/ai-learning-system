@@ -7,7 +7,7 @@ import time
 # =========================
 # CONFIG
 # =========================
-BASE_URL = ""https://ai-learning-system-backend.onrender.com"
+BASE_URL = "https://ai-learning-system-backend.onrender.com"
 
 st.set_page_config(
     page_title="Adaptive AI Learning Platform",
