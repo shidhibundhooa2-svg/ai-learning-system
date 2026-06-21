@@ -23,7 +23,7 @@ import uvicorn
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./database.db")
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 if not OPENAI_API_KEY:
     raise ValueError("Missing OPENAI_API_KEY in .env file")
