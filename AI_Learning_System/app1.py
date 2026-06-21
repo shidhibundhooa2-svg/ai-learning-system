@@ -7,7 +7,7 @@ import time
 # =========================
 # CONFIG
 # =========================
-BASE_URL = "https://api.render.com/deploy/srv-d8ru78kvikkc7390t0q0?key=Ga72q3m-wwI"
+BASE_URL = ""https://ai-learning-system-backend.onrender.com"
 
 st.set_page_config(
     page_title="Adaptive AI Learning Platform",
